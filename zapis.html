@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Офтальмологқа жазылу | RaViOptic</title>
+    <style type="text/css">
+        header {
+            background-color: #2ec4b6;
+            color: white;
+            display: block;
+            padding: 20px;
+        }
+        section {
+            background-color: #cbf3f0;
+            text-align: right;
+            height: 50px;
+        }
+        .link {
+            font-size: 10px;
+            color: #2F2A26;
+        }
+        .selected-link {
+            font-weight: bold;
+            font-size: 10px;
+        }
+        a:hover {
+            background: rgba(0,0,0,0.2);
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            padding: 0px 15px;
+            line-height: 50px;
+            border-left: 1px solid #808080;
+            -moz-transition: all 0.3s 0.01s ease;
+            -o-transition: all 0.3s 0.01s ease;
+            -webkit-transition: all 0.3s 0.01s ease;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+        li {
+            float: left;
+        }
+        ul {
+            list-style: none;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .booking-form {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .submit-button {
+            background-color: #2ec4b6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        html {
+            background-image: url(https://i.ibb.co.com/RHmJRy5/image-7t5-Inii-IZ-transformed.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://i.ibb.co.com/BjgyfZy/1-removebg-preview.png" name="logo" width="150px">
+    <header>
+        <h1 align="center">Офтальмологқа жазылу</h1>
+    </header>
+    <section>
+        <a href="index.html">Басты бет</a>
+        <a href="products.html">Өнімдер</a>
+        <a href="zapis.html">Көруіңізді тексеріңіз</a>
+        <a href="contacts.html">Контактілер</a>
+    </section>
+    <br>
+    <div class="booking-form">
+        <h2>Офтальмологқа жазылу</h2>
+        <form>
+            <div class="form-group">
+                <label for="firstName">Атыңыз:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Тегіңіз:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Жазылу күні:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Жазылу уақыты:</label>
+                <input type="time" id="time" name="time">
+            </div>
+            <div class="form-group">
+                <label for="doctor">Офтальмологты таңдаңыз:</label>
+                <select id="doctor" name="doctor" required>
+                    <option value="doctor1">Кузнецов Ф.Л.</option>
+                    <option value="doctor2">Любаковский А.У.</option>
+                    <option value="doctor3">Ахметова П. Е.</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-button">Жазылу</button>
+        </form>
+    </div>
+    <br><br><br><br>
+    <footer>
+        <table style="width:100%;">
+            <tr>
+                <td><img src="https://i.ibb.co.com/BjgyfZy/1-removebg-preview.png" name="logo" width="100px"></td>
+                                <td style="text-align: center;">Бізде тек кәсіби мамандар жұмыс істейді!</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
